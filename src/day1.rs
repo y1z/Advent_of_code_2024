@@ -1,5 +1,5 @@
 use crate::utility;
 
 pub fn start() {
-    utility::bitch();
+    utility::read_file("files/day_01.txt");
 }
