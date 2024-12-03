@@ -1,5 +1,5 @@
-pub mod day1;
-pub mod utility;
+pub(crate) mod day1;
+mod utility;
 
 fn main() {
     day1::start();
