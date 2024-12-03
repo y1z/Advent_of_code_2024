@@ -18,9 +18,15 @@ pub fn start() {
         index += 1;
     }
 
+    left_list.sort();
+    right_list.sort();
+
     index = 0;
+    let mut total_distance: u32 = 0;
     for value in left_list {
-        println!("{}  {}", value, right_list[index]);
+        //println!("{}  {}", value, right_list[index]);
+        total_distance += right_list[index].abs_diff(value);
         index += 1;
     }
+    print!("{}", total_distance);
 }
