@@ -28,5 +28,5 @@ pub fn start() {
         total_distance += right_list[index].abs_diff(value);
         index += 1;
     }
-    print!("{}", total_distance);
+    print!("total distance = {}", total_distance);
 }
