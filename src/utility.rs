@@ -1,5 +1,3 @@
-use std::fs::File;
-use std::io::prelude::*;
 use std::path::Path;
 
 pub fn read_file(file_path: &str) -> String {
