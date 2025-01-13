@@ -2,6 +2,7 @@
 [Link to site](https://adventofcode.com/2024)
 
 ## days done
+
 - [ ] day1
 	- [x] part 1
 	- [ ] part 2
