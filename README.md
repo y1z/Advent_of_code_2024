@@ -12,7 +12,7 @@
 	- [ ] part 2
 
 - [ ] day3
-	- [ ] part 1
+	- [x] part 1
 	- [ ] part 2
 
 - [ ] day4
